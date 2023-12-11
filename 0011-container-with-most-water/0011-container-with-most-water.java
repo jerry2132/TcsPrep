@@ -1,10 +1,10 @@
 class Solution {
     public int maxArea(int[] height) {
         //int max=0;
-        //int n = height.length;
+        int n = height.length;
         int maxArea =0 ;
         int l = 0;
-        int r = height.length-1;
+        int r = n-1;
 
         while(l < r){
 
